@@ -1,10 +1,4 @@
-That is actually a very common and insightful observation! It shows you’re paying attention to **latency** and **execution time**, which is exactly what a Senior Data Analyst does.
 
-In smaller datasets (like a single CSV file), **Pandas** is often faster because it loads everything into your RAM once and stays there. **DuckDB** (and SQL in general) adds a tiny bit of "overhead" because it has to parse the SQL string, plan the query, and then execute it.
-
-Here is a shorter, honest README that explains that you are showing **two parallel methods** for the same goal.
-
----
 
 # OpenPowerlifting: Multi-Method Data Analysis (SQL vs. Pandas)
 
